@@ -1,0 +1,80 @@
+* {
+  font-family: 'Comfortaa', cursive;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.slide-pages {
+  margin-bottom: 60px;
+}
+
+.header-1 {
+  margin-bottom: 10px;
+}
+
+.anime-capnhap {
+  margin-bottom: 25px;
+}
+
+/* --------------------------------- */
+
+.album-square {
+  width: 360px;
+  height: 180px;
+  background-color: #DDD;
+  background-image: url('https://loremflickr.com/320/240');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: #FFF;
+  font-size: 60px;
+}
+
+.album-square .overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.album-square:hover .overlay {
+  opacity: 1;
+}
+
+/* Footer Section*/
+
+#footer {
+  margin-top: 200px;
+}
+
+#footer a:hover {
+  color: #0ba2db;
+  text-decoration: none;
+}
+
+#taga a:hover {
+  color: #0ba2db;
+  text-decoration: none;
+}
+
+#taga a {
+  color: #141414;
+}
+
+.header-1 a {
+  color: #131313;
+}
+
+.header-1 a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header-2 p {
+  color: #000000;
+}
+

@@ -1,0 +1,41 @@
+.album-item-fate-apocrypha {
+    width: 150px;
+    height: 90px;
+    background-image: url(../footage/66666/fate-apocrypha-jeanne-d-arc-ruler-spear-sieg-sword-battle.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  .album-item-fate-apocrypha .overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+  .album-item-fate-apocrypha .overlay img {
+    transform: scale(0.8);
+    transition: all 0.3s;
+  }
+  
+  .album-item-fate-apocrypha:hover .overlay {
+    opacity: 1;
+  }
+  
+  .album-item-fate-apocrypha:hover .overlay img {
+    transform: scale(1);
+  }
+  
+  .paragraph-1 {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 20px;  
+  }
+  
+  #idv1 a:hover {
+    text-decoration: none;
+  }
+  

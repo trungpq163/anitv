@@ -1,0 +1,17 @@
+.button-btn {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.like-and-more {
+  margin-top: 1.5%;
+}
+
+.like-and-more a {
+  color: rgb(27, 27, 27);
+}
+
+.like-and-more a:hover {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}

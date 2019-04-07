@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.card {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #f1f1f1;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 0px 0px 20px #000000b3;
+}
+
+.card-header {
+    height: 300px;
+    overflow: hidden;
+}
+
+.card-header img {
+    height: 100%;
+
+}
+
+.card-header .cover {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card-header .name {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    opacity: 0.7;
+}
+
+.card-header .last {
+    display: block;
+    font-size: 36px;
+}
+
+.card-header .first {
+    font-size: 48px;
+    display: block;
+}
+
+.container {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.left-section {
+    width: 260px;
+    overflow: hidden;
+    float: left;
+}
+
+.left-section h3 {
+    color: #db3279;
+}
+
+.left-section p {
+    margin: 30px 0;
+}
+
+.left-section .followbtn {
+    width: 100%;
+    background: #db3279;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 8px 0;
+    transition: 0.2s all;
+}
+
+.left-section .followbtn:hover {
+    background: #ff006a;
+}
+
+.right-section {
+    overflow: hidden;
+    float: right;
+    text-align: right;
+}
+
+.item {
+    margin: 6px 0;
+}
+
+.num {
+    display: block;
+    font-size: 36px;
+}
+
+.word {
+    font-size: 16px;
+}
